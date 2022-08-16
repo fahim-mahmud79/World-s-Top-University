@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>World Top Universities</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html "><img src="img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- about us content------------- -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are The Best University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsam rerum libero! Sunt voluptate laboriosam voluptatem. Quas, corrupti temporibus? Ratione nisi molestiae eaque quaerat, fugiat iure aperiam eius, rerum, dignissimos possimus nihil Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, molestias?</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="/img/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+<!-- footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, nisi commodi! <br> Architecto voluptatem delectus quia reprehenderit, optio quisquam dicta. Quibusdam, in aperiam!</p>
+    <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT FOR TOGGLE MENU --------------- -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>
